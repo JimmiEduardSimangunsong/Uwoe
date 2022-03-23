@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+/* DASHBOARD CSS */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: cen;
+}
+ body{
+     margin: 0;
+     font-family: Arial;
+     background: #038ade;
+ }
+
+header {
+    background: #038ade;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+
+aside {
+    flex: 20%;
+    background: #222;
+}
+
+
+section.main {
+    flex: 80%;
+    background: #fff;
+    min-height: 530px;
+    padding: 15px 20px;
+}
+
+footer {
+    background: #ccc;
+    color: #555;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+
+@media (max-width:700px){
+    .container {
+        flex-direction: column;
+    }
+}
+
+.menu {
+    padding: 0;
+}
+
+.menu li {
+    border-bottom: 1px dotted #444;
+}
+
+.menu a {
+    display: block;
+    padding: 20px 20px;
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background: #000;
+}
+
+/* TABEL CSS */
+.judul{
+    color: #555;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+.table{
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.table th, .table td{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.table th{
+    background: #eee;
+}
+.tombol{
+    display: inline-block;
+    max-width: 150px;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+    background: #038ade;
+    cursor: pointer;
+}
+.tombol.edit, .tombol.hapus{
+    padding: 10px 15px;
+    font-size: 12px;
+}
+.tombol.hapus{
+    background: #fc4c4c;
+}
+
+/* FORM CSS */
+
+.input, select {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+}
+
+input[type=submit] {
+    background-color: #038ade;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form-group {
+    clear: both;
+}
+
+.form-group label {
+    display: block;
+    padding: 15px 0;
+    float: left;
+    width: 30%;
+    font-weight: bold;
+}
+
+.form-group .input {
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+input[type=radio]{
+    width: 50px;
+}
+
+.tombol.simpan{
+    background: #038ade;
+}
+
+.tombol.reset{
+    background: #fb8307;
+    border: none;
+}
+
+@media(max-width:700px){
+    .form-group label, .form-group .input {
+        width: 100%;
+        }
+}
