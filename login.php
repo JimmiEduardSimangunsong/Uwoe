@@ -2,7 +2,7 @@
 <html>
 </html>
 <head>
-    <title>Halaman Login</title>
+    <title>Login Page</title>
     <link href="css/login.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
@@ -28,7 +28,7 @@
                 </form>
                 <p>Forget Pasword</p>
                 <p>Need Account</p>
-                <p><a style="color:yellow; font-size:15px;" href="laman_utama.php">Kembali Ke Halaman Utama</a></p>
+                <p><a style="color:yellow; font-size:15px;" href="laman_utama.php">Kembali Ke Homepage</a></p>
             </div>
         </div>
     </section>
